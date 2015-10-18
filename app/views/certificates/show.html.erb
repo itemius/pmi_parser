@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @certificate.last_name %>
+</p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @certificate.first_name %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @certificate.city %>
+</p>
+
+<p>
+  <strong>Credential:</strong>
+  <%= @certificate.credential %>
+</p>
+
+<p>
+  <strong>Earned:</strong>
+  <%= @certificate.earned %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @certificate.status %>
+</p>
+
+<%= link_to 'Edit', edit_certificate_path(@certificate) %> |
+<%= link_to 'Back', certificates_path %>

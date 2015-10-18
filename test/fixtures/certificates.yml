@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  last_name: MyString
+  first_name: MyString
+  city: MyString
+  credential: 
+  earned: 2014-10-13
+  status: 
+
+two:
+  last_name: MyString
+  first_name: MyString
+  city: MyString
+  credential: 
+  earned: 2014-10-13
+  status: 
